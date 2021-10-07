@@ -1,0 +1,116 @@
+
+header {
+    background-color: yellowgreen;
+    text-align: center;
+}
+header ul li {
+    display: inline-block;
+    list-style-type: none;
+    padding-right: 15px
+}
+
+hearder img {
+    vertical-align: middle;
+
+}
+nav {
+background-color: rgb(200, 200, 250);
+
+    
+}
+a:hover {
+    background: #ffbf00;
+}
+
+main img{
+    float:left;
+    padding-right:15px;
+}
+
+.page{
+    background-color: cornsilk;
+    float:left;
+    width:45%;
+    border-right: 5px solid;
+    padding-left: 10px;
+    
+}
+/*.page img{
+    
+    width:auto;
+}*/
+header h1 img{
+    width: auto;
+}
+aside{
+ background-color:#00ffbf;     
+ float:right;
+ width:45%;
+ 
+ padding: 10px;
+    
+}
+aside h2{
+    color: blue;
+}
+
+aside img{
+    float:left;
+    padding-right: 10px;
+    /*width:auto;*/
+    
+}
+
+footer{
+  background-color: yellowgreen;   
+  text-align: center;
+  clear: both;
+    
+}
+
+a:link{
+    text-decoration: none;
+}
+
+main h2 {
+    color: green;
+    text-align: ;   
+    
+}
+
+body{
+    width: 80%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+nav ul li{
+    display: inline-block;
+    padding-right: 30px;
+}
+
+nav ul{
+    text-align: center;
+}
+
+#current{
+    background-color: white;
+    color: black;
+}
+ 
+.colm{
+    column-count: 3;
+    column-gap: 200px;
+    
+}
+
+h3{
+    color: green;
+}
+
+.subtitle{
+    text-align: center;
+}
+.point{
+    column-count: 3;
+}
