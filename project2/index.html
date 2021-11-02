@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="us">
+<head>
+	<meta charset="utf-8">
+	<title>Project 2</title>
+	<link href="css/main.css" rel="stylesheet">
+	<link href="jquery/jquery-ui.min.css" rel="stylesheet">	
+	<script src="external/jquery/jquery.js"></script>
+	<script src="jquery/jquery-ui.min.js"></script>
+</head>
+<body>
+        <header>
+      <img src="images/disneylogo.jpg" alt="disney" width="100">
+	</header>
+    
+<nav>
+	<div id="tabs">  <!-- this id is needed for the jquery to execute properly -->
+		<ul>
+			<li><a href="#tabs-1">Page 1</a></li>
+			<li><a href="#tabs-2">Page 2</a></li>
+            
+			<li><a href="#tabs-3">Page 3</a></li>
+             <li><a href="#tabs-4">Page 4</a></li> 
+		</ul>
+            
+
+		<div id="tabs-1"> <a href ="pages/page1.html">Page 1</a></div>
+        
+        
+		<div id="tabs-2"><a href ="pages/page2.html">Page 2</a></div>
+        
+		<div id="tabs-3"><a href ="pages/page3.html">Page 3</a></div>
+        
+        <div id="tabs-4"><a href ="pages/page4.html">Page 4</a></div>
+
+
+
+	</div>
+
+
+	<script>
+	  $( "#tabs" ).tabs();  //run the code to style the html starting at the "tabs" id as a tab widget
+	</script>
+    
+    </nav>
+    
+    
+  <main>
+
+	
+  </main>
+</body>
+</html>

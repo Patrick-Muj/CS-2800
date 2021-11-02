@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="us">
+<head>
+	<meta charset="utf-8">
+	<title>Project 2</title>
+	<link href="css/main.css" rel="stylesheet">
+	<link href="jquery/jquery-ui.min.css" rel="stylesheet">	
+	<script src="external/jquery/jquery.js"></script>
+	<script src="jquery/jquery-ui.min.js"></script>
+</head>
+<body>
+        <header>
+      <img src="images/disneylogo.jpg" alt="disney" width="100">
+	</header>
+    
+<nav>
+	<div id="tabs">  <!-- this id is needed for the jquery to execute properly -->
+		<ul>
+			<li><a href="#tabs-1">Page 1</a></li>
+			<li><a href="#tabs-2">Page 2</a></li>
+            
+			<li><a href="#tabs-3">Page 3</a></li>
+             <li><a href="#tabs-4">Page 4</a></li> 
+		</ul>
+            
+
+		<div id="tabs-1"> <a href ="pages/page1.html">Page 1</a></div>
+        
+        
+		<div id="tabs-2"><a href ="pages/page2.html">Page 2</a></div>
+        
+		<div id="tabs-3"><a href ="pages/page3.html">Page 3</a></div>
+        
+        <div id="tabs-4"><a href ="/pages/page4.html">Page 4</a></div>
+
+
+
+	</div>
+
+
+	<script>
+	  $( "#tabs" ).tabs();  //run the code to style the html starting at the "tabs" id as a tab widget
+	</script>
+    
+    </nav>
+    <main>   
+      <h1><cite>In the Big House</cite> by Pop Evil</h1>
+      <p>Note: the first video uses the html5 video tag. The second is an embedded video from YouTube.</p>
+      <video src="/media/bighouse.mp4" muted autoplay controls></video>  
+      <embed src="https://www.youtube.com/embed/bpsttuCKxLY">      
+      <h1><cite>The Victors</cite></h1>
+      <audio src="/media/victors.wav" controls></audio>
+      
+    </main>
+	
+    <footer>    
+      &copy; November 2016
+    </footer>  
+  
+  </body>
+
+
+</html>
