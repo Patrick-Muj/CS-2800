@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	  <title>Form Practice</title>
+	  <meta name="description" content="various input elements">
+	  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">    
+  </head>
+
+  <body>
+    <header>
+      <h1>Student Information</h1>
+    </header>
+	
+    <main>
+    
+      <form action="confirm.html">
+        <label>Enter your name:</label>
+		<input type="text" name="student_name"><br>
+		<fieldset>
+			<legend>Class Rank</legend>
+			
+			<input type="radio" name="class_rank" id="freshman" value="freshman">
+			<label for="freshman">Freshman</label><br>
+			
+			<input type="radio" name="class_rank" id="sophomore" value="sophomore">
+			<label for="sophomore">Sophomore</label><br>
+			
+			<input type="radio" name="class_rank" id="junior" value="junior">
+			<label for="junior">Junior</label><br>
+			
+			<input type="radio" name="class_rank" id="senior" value="senior">
+			<label for="senior">Senior</label><br>
+		
+			
+		</fieldset>
+        <select name="credit_hours">
+			<option value="0-30">0-30</option>
+			<option value="31-60">31-60</option>
+			<option value="61-90">61-90</option>
+			<option value="91-120">91-120</option>
+			<option value="121+">121+</option>
+		</select>
+        
+        <input type="submit" value="Process Info">
+		<input type="reset" value="Clear Form">
+        
+      </form>
+      
+    </main>
+  </body>
+
+</html>
