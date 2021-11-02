@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<title>Confirmation</title>
+	<meta name="description" content="page to display after submition">
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css"> 
+    <script src="scripts/main.js"></script>
+  </head>
+  
+  <body>
+      <h1>Order Confirmation</h1>
+    <main>
+      
+        
+        <p>Your order was received on
+      
+            <script>
+            
+                var order_date = new Date(); 
+                
+                
+
+
+                var month_num = order_date.getMonth();
+
+                var month_name;
+
+                if (month_num == 0)
+
+                month_name = "January";
+
+                else if (month_num == 1 )
+
+                month_name = "February";
+
+                else if (month_num == 2 )
+
+                month_name = "March";
+
+                else if (month_num == 3 )
+
+                month_name = "April";
+
+                else if (month_num == 4 )
+
+                month_name = "May";
+
+                else if (month_num == 5 )
+
+                month_name = "June";   
+
+                else if (month_num == 6 )
+
+                month_name = "July";
+
+                else if (month_num == 7 )
+
+                month_name = "August";
+
+                else if (month_num == 8 )
+
+                month_name = "September";
+
+                else if (month_num == 9 )
+
+                month_name = "October";
+
+                else if (month_num == 10 )
+
+                month_name = "November";
+
+                else if (month_num == 11 )
+
+                month_name = "December";
+                
+               
+                document.write(month_name + " " + order_date.getDate() + ", " + order_date.getFullYear());
+                
+                document.write(" at " + order_date.getHours() + ":" + order_date.getMinutes());
+
+            </script>
+        </p>
+
+    </main>
+      <footer>Patrick -CS2800 Project 3 - Spring 2021</footer>
+  </body>
+</html>
